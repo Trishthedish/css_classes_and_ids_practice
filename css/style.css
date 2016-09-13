@@ -1,1 +1,51 @@
 /*  style.css */
+/*group them by job, then get more specific*/
+
+
+body {
+  font-family: papyrus;
+  font-size: 14pt;
+  text-align: left;
+}
+
+.picture-gallery {
+  list-style-type: none;
+  background-color: blue;
+}
+
+.smallfont {
+  font-size: 50%;
+}
+
+.picture-gallery li {
+  float: left;
+  margin: 0 10px 10px 0;
+  background-color: yellow;
+}
+
+.main-body {
+  font-size: 2.0rem;
+}
+
+#main-title {
+  font-family: garamond;
+  font-size: 2.5rem;
+}
+
+/*****************************/
+/*        Navigation         */
+/******************************
+
+
+aside {
+  width: 30%;
+  float: left;
+  background-color: orange;
+  border: 2px solid red;
+}
+
+aside ul {
+  font-size: 0.75em;
+  color: grey;
+  padding: 10px;
+}
